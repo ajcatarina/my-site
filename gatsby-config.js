@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `AJ Catarina`,
+    siteUrl: `https://ajcatarina.netlify.com/`,
+    description: `AJ Catarina is a Web Designer and Developer mainly focused on JavaScript with React for frontend.`,
   },
   plugins: [`gatsby-plugin-react-helmet`],
 }
