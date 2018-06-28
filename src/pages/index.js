@@ -1,12 +1,23 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1 style={{ textAlign: 'center',
+                 color: 'white' }}
+        >
+      AJ CATARINA
+    </h1>
+    <div style={{ height: '160px',
+                  width: '400px',
+                  padding: '10px 25px',
+                  border: '2px solid white',
+                  color: 'white',
+                  textAlign: 'right',
+                  fontFamily: 'Oswald',
+                  fontSize: '80px',
+                }} >
+                DESIGNER
+    </div>
   </div>
 )
 
