@@ -2,19 +2,20 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import logo from '../images/aj_logo.svg'
 
 import './index.css'
 import Typography from 'typography'
 
 const typography = new Typography({
-  baseFontSize: '18px',
+  baseFontSize: '16px',
   baseLineHeight: 1.666,
   headerFontFamily: ['Oswald', 'sans-serif'],
-  bodyFontFamily: ['Lato', 'sans-serif'],
+  bodyFontFamily: ['Merriweather', 'serif'],
 })
 
 // Output CSS as string.
-typography.toString()
+//typography.toString()
 
 // Or insert styles directly into the <head> (works well for client-only
 // JS web apps.
@@ -42,11 +43,11 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          []
+          <img src={logo} width="50" height="auto"/>
         </Link>
 
       <Link
-        to="/work/"
+        to="/about/"
         style={{
           color: 'white',
           textDecoration: 'none',
@@ -76,8 +77,11 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="AJ Catarina - Designer & Developer"
       meta={[
-        { name: 'description', content: 'Portfolio' },
-        { name: 'keywords', content: 'aj, ajcatarina, aj catarina' },
+        { name: 'description', content: 'AJ Catarina is a Developer and Graphics Designer. React enthusiast.' },
+        { name: 'keywords', content: 'aj, ajcatarina, aj catarina, Ariel Jay Catarina, AJ Catarina, ajcatarina.com, graphics design, catarina, ariel, ariel jay' },
+      ]}
+      link={[
+        { href: 'https://fonts.googleapis.com/css?family=Merriweather:300,400|Oswald', rel: 'stylesheet' }
       ]}
     />
     <Header />
