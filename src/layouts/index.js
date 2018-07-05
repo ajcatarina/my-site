@@ -24,8 +24,11 @@ typography.injectStyles()
 const Header = () => (
   <div
     style={{
-      background: 'none',
+      background: 'rgba(38, 38, 38, 0.7)',
       marginBottom: '1.45rem',
+      position: 'fixed',
+      width: '100%',
+      height: 70,
     }}
   >
     <div
@@ -90,7 +93,7 @@ const TemplateWrapper = ({ children }) => (
         margin: '0 auto',
         maxWidth: 960,
         padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
+        paddingTop: 100,
         background: '#262626',
       }}
     >
