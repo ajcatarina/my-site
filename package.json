@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "my-site",
+  "description": "AJ Catarina - Official Website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "AJ Catarina <ajcatarina@outlook.com>",
   "dependencies": {
     "gatsby": "^1.9.127",
     "gatsby-link": "^1.6.30",
