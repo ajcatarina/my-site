@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "author": "AJ Catarina <ajcatarina@outlook.com>",
   "dependencies": {
-    "gatsby": "^1.9.127",
+    "gatsby": "^1.9.251",
     "gatsby-link": "^1.6.30",
     "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-source-filesystem": "^1.5.39",
     "gatsby-source-prismic": "^1.0.2",
     "react-responsive": "^4.1.0",
     "typography": "^0.16.17"
