@@ -3,9 +3,12 @@ import MediaQuery from 'react-responsive'
 
 const IndexPage = () => (
   <div>
-    <h1 style={{ textAlign: 'center',
-                 color: 'white' }}
-        >
+    <h1 style={{ 
+          textAlign: 'center',
+          color: 'white',
+          paddingTop: '100px'
+        }}
+    >
       AJ CATARINA
     </h1>
 

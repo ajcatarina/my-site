@@ -5,7 +5,7 @@ const AboutPage = () => (
     <p style={{fontSize: '24px', fontWeight: 'bold'}}>Hi, I'm Ariel Jay Catarina. I'm a Software Engineer who also loves doing Graphics Designs.</p>
     <p>I'm 24 and I'm living with my wife in Cebu City, Philippines. I'm a part of a Christian church called Citichurch where I volunteer as an electric guitarist and a technical director for camera operation.</p>
     <p>I love learning new stuff. Some of the interests I have now is learning more about UX design and typography design.</p>
-    <p>I'm currently working as a SAP ABAP developer. I only get to develop web and mobile apps in SAP occasionally, using SAPUI5, OData, and HANA.</p>
+    <p>I'm currently working as a SAP ABAP developer. I have developed web apps in SAP using SAPUI5, OData, and HANA.</p>
     <p>I'm a fan of ReactJS and I want to direct my career to becoming a great Frontend Engineer.</p>
 
     <p style={{fontSize: '20px', fontWeight: 'bold'}}>Contact</p>
